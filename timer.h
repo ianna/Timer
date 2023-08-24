@@ -10,8 +10,8 @@
 #endif
 
 extern "C" {
-  LIBAWKWARD_EXPORT_SYMBOL void start_timer();
-  LIBAWKWARD_EXPORT_SYMBOL void stop_timer();
+  LIBAWKWARD_EXPORT_SYMBOL void start_timer(void);
+  LIBAWKWARD_EXPORT_SYMBOL float stop_timer(void);
 }
 
 #endif // AWKWARD_TIMER_H_
